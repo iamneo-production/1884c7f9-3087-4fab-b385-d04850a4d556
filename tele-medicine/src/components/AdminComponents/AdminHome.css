@@ -1,0 +1,44 @@
+.admin-home-container {
+    overflow: hidden;
+  }
+  .admin-home-action {
+    background-color: #f1f1f1; /* Gray background color */
+    border: 1px solid #ccc; /* Border */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow */
+    padding: 20px; /* Adjust padding as needed */
+    text-align: center;
+    cursor: pointer; /* Show cursor as pointer on hover */
+  }
+  
+  .admin-home-background-image {
+    position: fixed;
+    height:100vh;
+    width: 60vw;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    transform: scale(0.3); /* Adjust the scale value to your preference */
+}
+  
+  .admin-home-content {
+    margin-top: 10vh;
+    padding: 20px;
+  }
+  
+  .admin-home-col {
+    text-align: center;
+    margin: 20px;
+    cursor: pointer;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    padding: 15px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .admin-home-col:hover {
+    background-color: #e9ecef;
+  }
+  body {
+    overflow: hidden;
+  }
