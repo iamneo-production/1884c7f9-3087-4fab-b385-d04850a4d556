@@ -1,0 +1,239 @@
+{
+    "users": [
+      {
+        "username": "patient123",
+        "email": "patient@gmail.com",
+        "password": "1234",
+        "role": "patient",
+        "id": 1
+      },
+      {
+        "id": 2,
+        "username": "lokesham",
+        "email": "lokesham@gmail.com",
+        "password": "0987",
+        "role": "doctor"
+      },
+      {
+        "id": 3,
+        "username": "admin",
+        "email": "admin123@admin.com",
+        "password": "1234",
+        "role": "admin"
+      },
+      {
+        "id": 4,
+        "username": "shayam",
+        "email": "shyam@gmail.com",
+        "password": "shyam123",
+        "role": "doctor"
+      },
+      {
+        "id": 5,
+        "username": "Lakshmi",
+        "email": "lakshmi@gmail.com",
+        "password": "lakshmi@123",
+        "role": "doctor"
+      },
+      {
+        "id": 6,
+        "username": "Manoj",
+        "email": "manoj@gmail.com",
+        "password": "manoj@123",
+        "role": "doctor"
+      },
+      {
+        "username": "Rajesh",
+        "email": "Rajesh@gmail.com",
+        "password": "rajesh123",
+        "role": "patient",
+        "id": 7
+      },
+      {
+        "id": 8,
+        "username": "prasad",
+        "email": "prasad@gmail.com",
+        "password": "prasad@123",
+        "role": "doctor"
+      },
+      {
+        "username": "shankar",
+        "email": "shankar@gmail.com",
+        "password": "shanku@134",
+        "role": "patient",
+        "id": 9
+      },
+      {
+        "username": "sholinki",
+        "email": "sholinki@gmail.com",
+        "password": "1234",
+        "role": "patient",
+        "id": 10
+      }
+    ],
+    "specialties": [
+      {
+        "id": 1,
+        "name": "Cardiology"
+      },
+      {
+        "id": 2,
+        "name": "Dermatology"
+      },
+      {
+        "id": 3,
+        "name": "gynecologists"
+      },
+      {
+        "id": 4,
+        "name": "orthopedic"
+      }
+    ],
+    "doctors": [
+      {
+        "id": 1,
+        "userId": 2,
+        "specialtyId": 1
+      },
+      {
+        "id": 2,
+        "userId": 4,
+        "specialtyId": 2
+      },
+      {
+        "id": 3,
+        "userId": 5,
+        "specialtyId": 3
+      },
+      {
+        "id": 4,
+        "userId": 6,
+        "specialtyId": 4
+      },
+      {
+        "id": 5,
+        "userId": 8,
+        "specialtyId": 3
+      }
+    ],
+    "appointments": [
+      {
+        "id": 1,
+        "patientId": 1,
+        "doctorId": 2,
+        "startTime": "2023-09-01T10:00:00",
+        "endTime": "2023-09-01T11:00:00",
+        "status": "pending"
+      },
+      {
+        "id": 2,
+        "patientId": 1,
+        "doctorId": 2,
+        "startTime": "2023-09-01T10:00:00",
+        "endTime": "2023-09-01T11:00:00",
+        "status": "pending"
+      },
+      {
+        "patientId": 1,
+        "doctorId": 5,
+        "startTime": "2023-08-31T13:00",
+        "endTime": "2023-08-31T13:00",
+        "status": "approved",
+        "id": 3
+      },
+      {
+        "patientId": 1,
+        "doctorId": 5,
+        "startTime": "2023-08-31T13:00",
+        "endTime": "2023-08-31T13:00",
+        "status": "approved",
+        "id": 4
+      },
+      {
+        "patientId": 1,
+        "doctorId": 5,
+        "startTime": "2023-08-31T13:00",
+        "endTime": "2023-08-31T13:00",
+        "status": "approved",
+        "id": 5
+      },
+      {
+        "patientId": 1,
+        "doctorId": 5,
+        "startTime": "2023-08-31T13:00",
+        "endTime": "2023-08-31T13:00",
+        "status": "pending",
+        "id": 6
+      },
+      {
+        "patientId": 1,
+        "doctorId": 5,
+        "startTime": "2023-08-31T13:00",
+        "endTime": "2023-08-31T13:00",
+        "status": "approved",
+        "id": 7
+      }
+    ],
+    "timeSlots": [
+      {
+        "id": 1,
+        "doctorId": 1,
+        "startTime": "2023-08-30T20:00",
+        "endTime": "2023-08-30T20:30"
+      },
+      {
+        "id": 2,
+        "doctorId": 1,
+        "startTime": "2023-08-30T20:31",
+        "endTime": "2023-08-30T21:00"
+      },
+      {
+        "id": 3,
+        "doctorId": 3,
+        "startTime": "2023-08-31T07:00",
+        "endTime": "2023-08-31T07:30"
+      },
+      {
+        "id": 4,
+        "doctorId": 2,
+        "startTime": "2023-08-31T20:00",
+        "endTime": "2023-08-31T21:00"
+      },
+      {
+        "id": 5,
+        "doctorId": 4,
+        "startTime": "2023-08-31T06:30",
+        "endTime": "2023-08-30T07:00"
+      },
+      {
+        "id": 6,
+        "doctorId": 2,
+        "startTime": "2023-08-31T00:40",
+        "endTime": "2023-08-31T01:40"
+      },
+      {
+        "id": 7,
+        "doctorId": 5,
+        "startTime": "2023-08-31T13:00",
+        "endTime": "2023-08-31T14:00"
+      },
+      {
+        "id": 8,
+        "doctorId": 5,
+        "startTime": "2023-09-01T07:30",
+        "endTime": "2023-09-01T08:00"
+      },
+      {
+        "id": 9,
+        "doctorId": 4,
+        "startTime": "2023-09-01T09:00",
+        "endTime": "2023-09-01T09:30"
+      },
+      {
+        "id": 10,
+        "doctorId": 3,
+        "startTime": "2023-09-01T10:20",
+        "endTime": "2023-09-01T10:50"
+      }
+    ]
+  }
